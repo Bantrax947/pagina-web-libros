@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!-- /*Link para fonts popings*/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- /*Link para fonts Oswald*/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- /*-----------------------------------*/ -->
     <title>Pagina web</title>
 </head>
 <body>
-<header class="header">
-    <div class="menu container">
-        <a href="#" class="logo">Logo</a>
-        <input type="checkbox" id="menu"/>
-        <label for="menu">
-            <img src="img/menu.png" class="menu-icono" alt="">
-        </label>
-<nav class="navbar">
-    <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicio</a></li>
-        <li><a href="#">Producto</a></li>
-        <li><a href="#">Contacto</a></li> 
-    </ul>
-</nav>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="">
+            </label>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicio</a></li>
+            <li><a href="#">Producto</a></li>
+            <li><a href="#">Contacto</a></li> 
+        </ul>
+    </nav>
+
 <div>
     <ul>
         <li class="submenu">
@@ -45,7 +55,7 @@
 </div>
 
     </div>
-    <div class="haeder-content container">
+    <div class="header-content container">
         <div class="header-img">
             <img src="img/right.png" alt="">
         </div>
@@ -73,7 +83,7 @@
         </div>
     </div>
 
-    <div class="ofert-2">
+    <div class="ofert-1">
         <div class="ofert-img">
             <img src="img/f3.png" alt="">
         </div>
@@ -83,7 +93,7 @@
         </div>
     </div>
 
-    <div class="ofert-3">
+    <div class="ofert-1">
         <div class="ofert-img">
             <img src="img/f3.png" alt="">
         </div>
@@ -104,8 +114,18 @@
             <div class="product-txt">
                 <h3>Fabian Franco</h3>
                 <p>Calidad premium</p>
-                <p>$200</p>
-                <P class="precio" agregar-carrito btn-2 data-id="2" >Agregar al carrito</P>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1" >Agregar Carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="img/2.png" alt="">
+            <div class="product-txt">
+                <h3>Fabian Franco</h3>
+                <p>Calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="2" >Agregar Carrito</a>
             </div>
         </div>
 
@@ -114,45 +134,40 @@
             <div class="product-txt">
                 <h3>Fabian Franco</h3>
                 <p>Calidad premium</p>
-                <p>$200</p>
-                <P class="precio" agregar-carrito btn-2 data-id="3" >Agregar al carrito</P>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="3" >Agregar Carrito</a>
             </div>
         </div>
+
         <div class="product">
             <img src="img/4.png" alt="">
             <div class="product-txt">
                 <h3>Fabian Franco</h3>
                 <p>Calidad premium</p>
-                <p>$200</p>
-                <P class="precio" agregar-carrito btn-2 data-id="4" >Agregar al carrito</P>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="4" >Agregar Carrito</a>
             </div>
         </div>
+
         <div class="product">
             <img src="img/5.png" alt="">
             <div class="product-txt">
                 <h3>Fabian Franco</h3>
                 <p>Calidad premium</p>
-                <p>$200</p>
-                <P class="precio" agregar-carrito btn-2 data-id="5" >Agregar al carrito</P>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="5" >Agregar Carrito</a>
             </div>
         </div>
+
         <div class="product">
             <img src="img/6.png" alt="">
             <div class="product-txt">
                 <h3>Fabian Franco</h3>
                 <p>Calidad premium</p>
-                <p>$200</p>
-                <P class="precio" agregar-carrito btn-2 data-id="6" >Agregar al carrito</P>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="6" >Agregar Carrito</a>
             </div>
         </div>
-        <div class="product">
-            <img src="img/1.png" alt="">
-            <div class="product-txt">
-                <h3>Fabian Franco</h3>
-                <p>Calidad premium</p>
-                <p>$200</p>
-                <P class="precio" agregar-carrito btn-2 data-id="1" >Agregar al carrito</P>
-            </div>
 
     </div>
 
@@ -195,6 +210,7 @@
 
 </section>
 
+
 <section class="blog container">
 
     <div class="blog-1">
@@ -214,7 +230,6 @@
         <h3>Blog 3</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et similique sint odio possimus unde magni reprehenderit optio voluptates maxime eaque at laudantium, aut natus perspiciatis quam velit, eius doloribus pariatur.</p>
     </div>
-
 </section>
 
 <footer class="footer">
@@ -233,7 +248,7 @@
         <div class="link">
             <h3>Lorem</h3>
             <ul>
-                <li> <a href="#">lorem</a></li>
+                <li> <a href="#">lorems</a></li>
                 <li> <a href="#">lorem</a></li>
                 <li> <a href="#">lorem</a></li>
                 <li> <a href="#">lorem</a></li>
@@ -264,6 +279,6 @@
 </footer>
 
 
-<script> src="scrip.js"</script>
+<script src="scrip.js"></script>
 </body>
 </html>
