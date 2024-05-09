@@ -35,7 +35,7 @@
   font-style: normal;
 */
 
-
+/*Para dar especificaciones generales*/
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@
     list-style:none;
     text-decoration: none;
 }
-
+/*Para la tipografia de letra en todo el body*/
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -134,7 +134,7 @@ table{
 }
 
 th, td{
-    color: rebeccapurple;
+    color: rgb(173, 111, 30);
 }
 
 .borrar{
@@ -282,3 +282,148 @@ th, td{
 .precio{
     font-weight: 800;
 }
+
+.icons{
+    padding: 50px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-1{
+    flex-basis: calc(33.3% - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: rgba(146, 68, 15, 0.514);
+}
+
+.icon-txt h3{
+    font-size: 20px;
+    color: #380507;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.icon-txt p{
+    font-size: 16px;
+    color: #5a0609;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.blog-1{
+    flex-basis: calc(33.3% - 30px);
+}
+
+.blog-1 img{
+    margin-bottom: 20px;
+}
+
+.blog-1 h3{
+    font-size: 20px;
+    color: #380507;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.blog-1 p{
+    font-size: 16px;
+    color: #380507;
+}
+
+.footer{
+    padding: 50px 0;
+    background-color: #b9821d;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3{
+    font-size: 18px;
+    color: #380507;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link a{
+    font-size: 16px;
+    color: #5a0609;
+    margin-bottom: 10px;
+}
+/*Responsive*/
+
+@media (max-width:991px){
+
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #c64b0d;
+        display: none;
+        /*opacity: 0.8;*/
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    .menu ul li{
+        color: aqua;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .submenu:hover #carrito {
+        min-width: 100px;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 50px 0;
+        flex-direction: column;
+    }
+
+    .header-img{
+        display: none;
+    }
+
+    .header-txt{
+        flex-basis: none;
+        text-align: center;
+    }
+
+    .header-txt h1{
+        font-size: 70px;
+    }
+
+
+}
+
