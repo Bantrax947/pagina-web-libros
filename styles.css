@@ -126,6 +126,7 @@ img{
     background-color: #c98025;
     padding: 20px;
     min-width: 400px;
+   
 
 }
 
@@ -134,18 +135,22 @@ table{
 }
 
 th, td{
-    color: rgb(173, 111, 30);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    
 }
 
 .borrar{
-    background-color: aqua;
+    background-color: rgb(255, 136, 0);
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
-    color: chartreuse;
+    color: rgb(0, 0, 0);
     font-weight: 800;
     cursor: pointer;
+    
 }
+
 
 .header-content{
     display: flex;
@@ -169,7 +174,7 @@ th, td{
     font-size: 80px;
     text-transform: uppercase;
     line-height: 1;
-    color: crimson;
+    color: rgb(170, 128, 49);
     font-family: "Oswald", sans-serif;
     margin-bottom: 15px;
 
@@ -184,8 +189,8 @@ th, td{
 .btn-1{
     display: inline-block;
     padding: 11px 25px;
-    background-color: rgb(161, 92, 226);
-    color: #5a0609;
+    background-color: #5a0609;
+    color: #be860d;
     border-radius:5px ;
 }
 
